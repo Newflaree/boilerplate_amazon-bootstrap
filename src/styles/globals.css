@@ -16,8 +16,8 @@
 }
 .btn-amazon:hover {
   color: black;
-  border: 1px solid black;
-  background: linear-gradient( to bottom,  #bd9e53, #b5a972 );
+  border: 1px solid #b5a972;
+  background: linear-gradient( to bottom,  #f0c14e, #bd9e53 );
 }
 
 .text-amazon {
@@ -25,3 +25,7 @@
   text-decoration: none;
 }
 
+.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}

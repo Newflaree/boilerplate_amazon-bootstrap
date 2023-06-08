@@ -8,13 +8,13 @@ export const AmazonCard1 = ({
   cardDestination = ''
 }) => {
   return (
-    <div className="card m-auto" style={{ width: '18rem'} }>
+    <div className="card m-auto shadow" style={{ width: '18rem'} }>
       <a href={ cardDestination } target='_blank'>
         <img src={ cardImage } className="card-img-top p-3" alt={ cardDesc } />
       </a>
       <div className="card-body">
         <a href={ cardDestination } className='text-amazon' target='_blank'>
-          <h5 className="card-title text-amazon">{ cardTitle }</h5>
+          <h5 className="card-title text-amazon">{ cardTitle.substring( 0, 106 ) }{ cardTitle.length > 100 ? '...' : '' }</h5>
         </a>
         <p className="card-text text-end fw-bold fs-3">
           ${ cardPrice } CLP

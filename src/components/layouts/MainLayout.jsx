@@ -28,7 +28,7 @@ export const MainLayout = ({
       
       <NavBar />
       
-      <main className='container mt-5'>
+      <main className='container p-5 mt-5'>
         { children }
       </main>
 
