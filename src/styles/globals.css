@@ -7,3 +7,21 @@
   background-color: white;
   z-index: 0;
 }
+
+.btn-amazon {
+  color: black;
+  border: 1px solid #b5a972;
+  background: linear-gradient( to bottom, #f7de9f, #f0c14e );
+
+}
+.btn-amazon:hover {
+  color: black;
+  border: 1px solid black;
+  background: linear-gradient( to bottom,  #bd9e53, #b5a972 );
+}
+
+.text-amazon {
+  color: #2196f3;
+  text-decoration: none;
+}
+
