@@ -1,7 +1,7 @@
 // React
 import { useEffect, useState } from 'react';
 // Components
-import { LoadingPage } from '@/components/ui';
+import { CardGrid, LoadingPage } from '@/components/ui';
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
@@ -29,7 +29,7 @@ export default function Home() {
       <LoadingPage />
       ): (
         <div className='py-3'>
-          <h1>jsakdfjalsdfj</h1>
+          <CardGrid />
         </div>
       )
     }
