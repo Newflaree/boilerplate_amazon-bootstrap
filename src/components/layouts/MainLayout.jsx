@@ -1,7 +1,9 @@
+// React
+import { useEffect, useState } from 'react';
 // Next.js
 import Head from 'next/head';
 // Components
-import { Footer, NavBar } from '../ui';
+import { Footer, LoadingPage, NavBar } from '../ui';
 
 
 export const MainLayout = ({
@@ -10,6 +12,18 @@ export const MainLayout = ({
   descPage = '',
   keywordsPage = ''
 }) => {
+  const [ isLoading, setIsLoading ] = useState( true );
+
+  useEffect( () => {
+    loadingControl();
+  }, [] );
+
+  const loadingControl = () => {
+    setTimeout( () => {
+      setIsLoading( false );
+    }, 1000 );
+  }
+
   return (
     <>
       <Head>
@@ -28,8 +42,12 @@ export const MainLayout = ({
       
       <NavBar />
       
-      <main className='container p-5 mt-5'>
-        { children }
+      <main className='container mt-5'>
+        {
+          isLoading
+            ? <LoadingPage />
+            : <>{ children }</>
+        }
       </main>
 
       <Footer />

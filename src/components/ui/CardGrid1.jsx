@@ -4,11 +4,11 @@ import { AmazonCard1, AmazonCard2 } from './';
 import { dbProducts } from '@/database';
 
 
-export const CardGrid1 = () => {
+export const CardGrid1 = ({ products }) => {
   return (
-    <div className="row row-cols-1 row-cols-sm-1 row-cols-md-4 g-4 my-4">
+    <div className="row row-cols-1 row-cols-sm-1 row-cols-md-4 g-4">
       {
-        dbProducts.amazonProducts.map( product => (
+        products.map( product => (
           <div
             key={ product.id }
             className="col"

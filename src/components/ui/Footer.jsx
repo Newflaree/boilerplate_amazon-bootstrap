@@ -2,11 +2,26 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div>
-      <div className='p-4 bg-dark text-white  wcontainer text-center'>
-        <h4>Footer</h4>
-        <h5>{ currentYear }</h5>
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <h4>Compra en Amazon</h4>
+            <p>Este sitio web es un nicho dedicado a los drones. Recomendamos productos a través de enlaces de afiliados de Amazon, lo que significa que recibimos una pequeña comisión por las compras realizadas a través de nuestros enlaces. Al hacer clic en un enlace y realizar una compra, tú apoyas este sitio web y nos permites continuar brindando contenido de calidad sobre drones.</p>
+            <p>Para más información sobre las condiciones de compra en Amazon, te recomendamos revisar los <a href="https://www.amazon.com/gp/help/customer/display.html/?nodeId=508088" target='_blank'>términos y condiciones</a> de Amazon.</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12">
+            <p className="text-center">
+              &copy; { currentYear } DronExperts. Todos los derechos reservados.
+            </p>
+            <p className="text-center">
+              Create por NWFL Software Development
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+      </footer>
   );
 }

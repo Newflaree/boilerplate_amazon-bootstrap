@@ -1,3 +1,96 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
 .loading-container {
   position: fixed;
   top: 0;
@@ -28,4 +121,55 @@
 .shadow {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+.banner {
+  background-image: url('https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/05/dji-mini-3-pro-flight-2-920x518.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+  position: relative;
+  padding: 100px 0;
+  color: #fff;
+  backdrop-filter: blur(3px);
+}
+
+.banner-title {
+  font-size: 36px;
+  font-weight: bold;
 }

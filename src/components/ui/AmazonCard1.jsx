@@ -1,5 +1,3 @@
-
-
 export const AmazonCard1 = ({
   cardTitle = '',
   cardDesc= '',
