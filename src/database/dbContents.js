@@ -3,6 +3,7 @@ export const homeContent = {
   metaDesc : 'DronExperts | Descubre todo sobre drones: vuelos emocionantes, fotografía aérea impresionante y los mejores drones profesionales y para principiantes. Explora nuestra guía de vuelo, accesorios esenciales y las últimas tendencias en la industria de drones.',
   metaKeywords: 'Vuelos con drones, Fotografía aérea, Drones profesionales, Drones para principiantes, Guías de vuelo, Accesorios para drones, Industria de drones, Nuevas tendencias en vuelo',
   pageTitle: '¡Explora el emocionante mundo de los drones!',
+  pageBanner: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/05/dji-mini-3-pro-flight-2-920x518.jpg',
 
   section1: {
     title: 'Vuelos con drones para todos',
@@ -33,5 +34,44 @@ export const homeContent = {
     p1: 'Los drones están revolucionando múltiples industrias y abriendo nuevas posibilidades en el ámbito de la tecnología. Desde la agricultura y la inspección de infraestructuras hasta la cinematografía y la entrega de paquetes, los drones se están convirtiendo en herramientas indispensables en diversos sectores.',
     p2: 'En nuestro sitio web, te mantendremos actualizado sobre las últimas aplicaciones y tendencias en el mundo de los drones. Exploraremos cómo los drones están transformando la manera en que se realizan tareas cotidianas y cómo están impulsando la innovación en diferentes campos. Únete a nosotros y sé parte de la revolución de los drones, donde las posibilidades son infinitas.',
     p3: 'Te invitamos a explorar nuestro sitio web, aprender, descubrir y disfrutar de todo lo que el mundo de los drones tiene para ofrecer. Únete a la emocionante comunidad de pilotos de drones y descubre cómo volar puede cambiar tu perspectiva del mundo.'
+  },
+};
+
+export const generalReviewsContent = {
+  metaTitle: 'DronExperts | Reseñas de las 5 Mejores Marcas de Drones en Amazon',
+  metaDesc : 'DronExperts | Descubre las marcas más cotizadas de drones en Amazon y elige el mejor para tus vuelos y fotografía aérea. Conoce las ventajas, desventajas y características de cada marca.',
+  metaKeywords: 'Reseñas de drones, mejores marcas de drones, drones en Amazon, vuelos con drones, fotografía aérea, UAV, drones profesionales, drones para principiantes, características de drones',
+  pageTitle: 'Reseñas de las 5 Mejores Marcas de Drones en Amazon',
+  pageBanner: 'https://www.photolari.com/wp-content/uploads/2022/01/divcreativo-dscf5597.jpg',
+
+  section1: {
+    title: 'DJI',
+    p1: 'DJI es la marca líder indiscutible en el mercado de drones y es reconocida por su calidad y rendimiento excepcionales. Sus drones profesionales, como el DJI Phantom 4 Pro y el DJI Mavic 2 Pro, son altamente cotizados por su capacidad de vuelo estable, cámaras de alta resolución y una amplia gama de funciones avanzadas. Con DJI, puedes capturar impresionantes fotografías aéreas y videos de alta calidad para tus proyectos profesionales o simplemente para disfrutar de la experiencia de vuelo. Aunque los drones de DJI pueden tener un precio más alto, la inversión vale la pena para aquellos que buscan la máxima calidad y confiabilidad en su equipo de drones.',
+    p2: '',
+    p3: ''
+  },
+  section2: {
+    title: 'Parrot',
+    p1: 'Parrot es una marca reconocida por su enfoque en la innovación y la tecnología de vuelo autónomo. Sus drones, como el Parrot Anafi y el Parrot Bebop 2 Power, ofrecen características avanzadas que te permiten capturar imágenes aéreas impresionantes con facilidad. La estabilidad en vuelo, la calidad de la cámara y la portabilidad son puntos fuertes de los drones de Parrot. Además, la interfaz de usuario intuitiva y las aplicaciones móviles bien diseñadas hacen que volar un dron Parrot sea una experiencia emocionante y accesible para principiantes y entusiastas por igual.',
+    p2: '',
+    p3: ''
+  },
+  section3: {
+    title: 'Autel Robotics',
+    p1: 'Autel Robotics es una marca en rápido crecimiento que ha ganado una reputación sólida en el mercado de drones. Sus drones, como el Autel EVO II y el Autel X-Star Premium, ofrecen un rendimiento excepcional y características de nivel profesional. Con resoluciones de cámara impresionantes, tiempos de vuelo prolongados y una sólida construcción, los drones de Autel Robotics son ideales para fotógrafos y videógrafos aéreos que buscan una calidad de imagen y un rendimiento excepcionales. Además, la atención al detalle y el excelente servicio al cliente de Autel Robotics garantizan una experiencia de usuario satisfactoria y confiable.',
+    p2: '',
+    p3: ''
+  },
+  section4: {
+    title: 'Yuneec',
+    p1: 'Yuneec es una marca reconocida por su compromiso con la seguridad y la calidad en sus drones. Sus modelos, como el Yuneec Typhoon H Pro y el Yuneec Mantis Q, combinan características avanzadas y una construcción duradera. Con cámaras de alta resolución, modos de vuelo inteligentes y sistemas de evitación de obstáculos, los drones de Yuneec ofrecen una experiencia de vuelo segura y confiable. Ya sea que estés interesado en la fotografía aérea, la videografía o simplemente volar por diversión, los drones de Yuneec son una excelente opción para principiantes y pilotos experimentados que buscan un rendimiento sólido y características de seguridad avanzadas.',
+    p2: '',
+    p3: ''
+  },
+  section5: {
+    title: 'Holy Stone',
+    p1: 'Holy Stone se destaca como una marca popular para aquellos que buscan drones de calidad a precios asequibles. Sus modelos, como el Holy Stone HS700D y el Holy Stone HS120D, ofrecen un equilibrio entre características avanzadas y facilidad de uso. Estos drones son perfectos para principiantes y entusiastas que desean explorar el vuelo con drones y la fotografía aérea sin romper su presupuesto. Con características como transmisión en vivo de video, modos de vuelo inteligentes y una duración de batería decente, los drones de Holy Stone te permiten capturar imágenes impresionantes y disfrutar de la emoción de volar sin complicaciones.',
+    p2: '',
+    p3: ''
   },
 };

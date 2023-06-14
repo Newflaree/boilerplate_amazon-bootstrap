@@ -1,8 +1,20 @@
+// Next.js
+import NextLink from 'next/link';
+
 export const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">DronExperts</a>
+        <NextLink
+          href='/'
+          passHref
+          legacyBehavior
+          
+        >
+          <p className="navbar-brand pointer">
+            DronExperts
+          </p>
+        </NextLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,24 +30,36 @@ export const NavBar = () => {
           <ul className="navbar-nav ms-auto">
             { /* List Item */ }
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Inicio
-              </a>
+              <NextLink
+                href="/"
+                passHref
+                legacyBehavior
+              >
+                <p className="nav-link">
+                  Inicio
+                </p>
+              </NextLink>
             </li>
             { /* List Item */ }
             { /* List Item */ }
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Reseñas de drones
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                    Reseñas generales
-                  </a>
+                  <NextLink
+                    href="/marcas-destacadas"
+                    passHref
+                    legacyBehavior
+                  >
+                    <p className="dropdown-item pointer">
+                      Marcas destacadas
+                    </p>
+                  </NextLink>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Reseñas individuales
                   </a>
                 </li>
@@ -43,23 +67,23 @@ export const NavBar = () => {
             </li>
             { /* List Item */ }
             { /* List Item */ }
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Guías de compra
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Drones para principiantes
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Drones para fotografía aérea
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Drones de carreras
                   </a>
                 </li>
@@ -67,18 +91,18 @@ export const NavBar = () => {
             </li>
             { /* List Item */ }
             { /* List Item */ }
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Comparativas de drones
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Drones por rango de precios
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Drones por características
                   </a>
                 </li>
@@ -86,18 +110,18 @@ export const NavBar = () => {
             </li>
             { /* List Item */ }
             { /* List Item */ }
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Accesorios para drones
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Accesorios esenciales
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Accesorios especiales
                   </a>
                 </li>
@@ -105,23 +129,23 @@ export const NavBar = () => {
             </li>
             { /* List Item */ }
             { /* List Item */ }
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blog
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Noticias
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Consejos
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Tutoriales
                   </a>
                 </li>

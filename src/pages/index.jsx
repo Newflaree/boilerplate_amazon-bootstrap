@@ -6,7 +6,7 @@ import {
 // Layouts
 import { MainLayout } from '@/components/layouts';
 // Views
-import { HomeSection } from '@/views';
+import { PageSection } from '@/views';
 
 
 export default function Home({ contentData }) {
@@ -15,6 +15,7 @@ export default function Home({ contentData }) {
     metaDesc,
     metaKeywords,
     pageTitle,
+    pageBanner,
     section1,
     section2,
     section3,
@@ -28,12 +29,19 @@ export default function Home({ contentData }) {
       descPage={ metaDesc }
       keywordsPage={ metaKeywords }
     >
-      <section className="banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="banner-content text-center">
-                <h1 class="text-white display-1">
+      <section
+        className="banner"
+        style={{
+          backgroundImage: `url( ${ pageBanner } )`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="banner-content text-center">
+                <h1 className="text-white display-1">
                   { pageTitle }
                 </h1>
               </div>
@@ -44,21 +52,21 @@ export default function Home({ contentData }) {
 
       <hr />
 
-      <HomeSection
+      <PageSection
         title={ section1.title }
         p={ section1.p1 }
         p2={ section1.p2 }
         products={ dbProducts.amazonProducts }
       />
 
-      <HomeSection
+      <PageSection
         title={ section2.title }
         p={ section2.p1 }
         p2={ section2.p2 }
         products={ dbProducts.amazonProducts }
       />
 
-      <HomeSection
+      <PageSection
         title={ section3.title }
         p={ section3.p1 }
         p2={ section3.p2 }
@@ -66,14 +74,14 @@ export default function Home({ contentData }) {
         products={ dbProducts.amazonProducts }
       />
 
-      <HomeSection
+      <PageSection
         title={ section4.title }
         p={ section4.p1 }
         p2={ section4.p2 }
         products={ dbProducts.amazonProducts }
       />
 
-      <HomeSection
+      <PageSection
         title={ section5.title }
         p={ section5.p1 }
         p2={ section5.p2 }

@@ -21,7 +21,7 @@ export const MainLayout = ({
   const loadingControl = () => {
     setTimeout( () => {
       setIsLoading( false );
-    }, 1000 );
+    }, 400 );
   }
 
   return (
