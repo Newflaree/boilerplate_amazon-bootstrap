@@ -28,9 +28,8 @@ const FeaturedBrandsPage = ({ contentData }) => {
     >
       <section
         className="banner"
-      style={{
-
-        backgroundImage: `url( ${ pageBanner } )`,
+        style={{
+          backgroundImage: `url( ${ pageBanner } )`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -53,30 +52,35 @@ const FeaturedBrandsPage = ({ contentData }) => {
       <PageSection
         title={ section1.title }
         p={ section1.p1 }
+        linkWords={ section1.linkWords }
         products={ dbProducts.amazonProducts }
       />
 
       <PageSection
         title={ section2.title }
         p={ section2.p1 }
+        linkWords={ section2.linkWords }
         products={ dbProducts.amazonProducts }
       />
 
       <PageSection
         title={ section3.title }
         p={ section3.p1 }
+        linkWords={ section3.linkWords }
         products={ dbProducts.amazonProducts }
       />
 
       <PageSection
         title={ section4.title }
         p={ section4.p1 }
+        linkWords={ section4.linkWords }
         products={ dbProducts.amazonProducts }
       />
 
       <PageSection
         title={ section5.title }
         p={ section5.p1 }
+        linkWords={ section5.linkWords }
         products={ dbProducts.amazonProducts }
       />
     </MainLayout>
@@ -85,7 +89,6 @@ const FeaturedBrandsPage = ({ contentData }) => {
 
 export const getServerSideProps = async ( ctx ) => {
   const contentData = dbContents.generalReviewsContent;
-  console.log({ contentData });
 
   return {
     props: {

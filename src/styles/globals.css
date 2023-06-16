@@ -178,3 +178,15 @@ p {
 .pointer {
   cursor: pointer;
 }
+
+.inter-link {
+  cursor: pointer;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.inter-link:hover {
+  cursor: pointer;
+  color: #2196f3;
+  text-decoration: underline;
+}
