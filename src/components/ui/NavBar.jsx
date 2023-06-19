@@ -53,9 +53,9 @@ export const NavBar = () => {
                     passHref
                     legacyBehavior
                   >
-                    <p className="dropdown-item pointer">
+                    <span className="dropdown-item pointer">
                       Marcas destacadas
-                    </p>
+                    </span>
                   </NextLink>
                 </li>
                 <li>

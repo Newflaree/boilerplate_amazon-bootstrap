@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const ParrotAnafiPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>ParrotAnafiPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default ParrotAnafiPage;

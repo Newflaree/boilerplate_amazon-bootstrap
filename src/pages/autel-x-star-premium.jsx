@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const AutelXStarPremiumPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>AutelXStarPremiumPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default AutelXStarPremiumPage;

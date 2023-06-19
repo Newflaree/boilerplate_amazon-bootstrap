@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const HolyStoneHS120DPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>HolyStoneHS120DPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default HolyStoneHS120DPage;

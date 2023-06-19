@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const YuneecPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>YuneecPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default YuneecPage;

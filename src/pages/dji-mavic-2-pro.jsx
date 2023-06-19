@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const DjiMavic2ProPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>DjiMavic2ProPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default DjiMavic2ProPage;

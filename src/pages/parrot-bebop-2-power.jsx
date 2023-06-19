@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const ParrotBebop2PowerPage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>ParrotBebop2PowerPage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default ParrotBebop2PowerPage;

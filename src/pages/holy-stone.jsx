@@ -1,12 +1,12 @@
 // Layouts
 import { MainLayout } from '@/components/layouts';
 
-const DJIPage = () => {
+const HolyStonePage = () => {
   return (
     <MainLayout>
-      <div>DJIPage</div>
+      <div>HolyStonePage</div>
     </MainLayout>
   );
 }
 
-export default DJIPage;
+export default HolyStonePage;
