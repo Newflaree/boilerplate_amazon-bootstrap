@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const AmazonCard2 = ({
   cardTitle = '',
   cardDesc= '',
@@ -10,7 +12,7 @@ export const AmazonCard2 = ({
       <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2">
         <div className="col">
           <a href={ cardDestination } target='_blank'>
-            <img src={ cardImage } className="card-img-top p-5" alt={ cardDesc } />
+            <Image src={ cardImage } className="card-img-top p-5" alt={ cardDesc } />
           </a>
           </div>
         <div className="col">

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const AmazonCard1 = ({
   cardTitle = '',
   cardDesc= '',
@@ -8,7 +10,7 @@ export const AmazonCard1 = ({
   return (
     <div className="card m-auto shadow h-100" style={{ width: '18rem' }}>
       <a href={cardDestination} target='_blank'>
-        <img src={cardImage} className="card-img-top p-3" alt={cardDesc} />
+        <Image src={cardImage} className="card-img-top p-3" alt={cardDesc} />
       </a>
       <div className="card-body d-flex flex-column">
         <a href={cardDestination} className='text-amazon' target='_blank'>
