@@ -1,7 +1,11 @@
 // Next.js
 import NextLink from 'next/link';
+import { useRouter } from 'next/router';
+
 
 export const NavBar = () => {
+  const { asPath } = useRouter();
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
@@ -35,15 +39,17 @@ export const NavBar = () => {
                 passHref
                 legacyBehavior
               >
-                <p className="nav-link">
+                <span
+                  className={ `nav-link ${ asPath === '/' ? 'active' : '' }` }
+                >
                   Inicio
-                </p>
+                </span>
               </NextLink>
             </li>
             { /* List Item */ }
             { /* List Item */ }
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Reseñas de drones
               </a>
               <ul className="dropdown-menu">
@@ -68,7 +74,7 @@ export const NavBar = () => {
             { /* List Item */ }
             { /* List Item */ }
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Guías de compra
               </a>
               <ul className="dropdown-menu">
@@ -92,7 +98,7 @@ export const NavBar = () => {
             { /* List Item */ }
             { /* List Item */ }
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Comparativas de drones
               </a>
               <ul className="dropdown-menu">
@@ -111,7 +117,7 @@ export const NavBar = () => {
             { /* List Item */ }
             { /* List Item */ }
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Accesorios para drones
               </a>
               <ul className="dropdown-menu">
@@ -130,7 +136,7 @@ export const NavBar = () => {
             { /* List Item */ }
             { /* List Item */ }
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blog
               </a>
               <ul className="dropdown-menu">

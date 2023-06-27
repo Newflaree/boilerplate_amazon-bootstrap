@@ -85,3 +85,61 @@ export const generalReviewsContent = {
     linkWords: [ 'Holy Stone', 'Holy Stone HS700D', 'Holy Stone HS120D' ]
   },
 };
+
+export const djiContent = {
+  metaTitle: 'DronExperts | DJI: Drones Profesionales y Accesorios de Calidad',
+  metaDesc : 'DronExperts | Descubre la marca DJI, líder en drones profesionales y tecnología de vuelo. Explora sus características, accesorios y aplicaciones en fotografía aérea, vuelos recreativos y más. Encuentra todo lo que necesitas para iniciarte en el mundo de los drones con DJI',
+  metaKeywords: 'DJI, drones profesionales, vuelos con drones, fotografía aérea, UAV, tecnología de vuelo, accesorios para drones, aplicaciones de drones',
+  pageTitle: 'DJI: Drones Profesionales y Accesorios de Calidad',
+  pageBanner: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/05/dji-mini-3-unfolded-920x518.jpg',
+  section1: {
+    title: 'Ventajas de los Drones DJI',
+    p1: 'Los drones DJI son reconocidos en todo el mundo por su calidad excepcional y su rendimiento sobresaliente. Con una amplia gama de modelos diseñados tanto para principiantes como para profesionales, DJI ofrece ventajas significativas en el campo de los drones. Una de las principales ventajas de los drones DJI es su estabilidad en vuelo, gracias a la tecnología avanzada de control y navegación que los hace fáciles de pilotar incluso para aquellos sin experiencia previa. Además, los drones DJI están equipados con cámaras aéreas de alta calidad, lo que permite capturar imágenes y videos impresionantes para fotografía aérea y cinematografía profesional. Con características como modos de vuelo inteligentes, seguimiento de objetos y opciones de control remoto, DJI proporciona a los pilotos una experiencia de vuelo fluida y emocionante.',
+    p2: '',
+    p3: '',
+    linkWords: [ 'DJI', 'DJI Mavic 2 Pro', 'DJI Phantom 4 Pro' ]
+  },
+  section2: {
+    title: 'Accesorios y Tecnología de Vuelo de DJI',
+    p1: 'DJI no solo se enfoca en la producción de drones de alta calidad, sino que también ofrece una amplia gama de accesorios y tecnología de vuelo para mejorar aún más la experiencia del usuario. Los accesorios de DJI incluyen baterías adicionales para prolongar el tiempo de vuelo, estabilizadores de cámara para obtener tomas más. Además, los drones DJI están equipados con cámaras aéreas de alta calidad, lo que permite capturar imágenes y videos impresionantes para fotografía aérea y suaves y filtros para mejorar la calidad de imagen en diferentes condiciones de iluminación. Además, DJI cuenta con una gran comunidad de desarrolladores y entusiastas que han creado aplicaciones y software complementarios para aprovechar al máximo los drones DJI. Estas aplicaciones ofrecen funciones avanzadas de planificación de vuelo, edición de videos y transmisión en vivo, brindando a los usuarios un control completo sobre sus drones y permitiéndoles explorar nuevas posibilidades en la fotografía aérea y la videografía.',
+    p2: 'En resumen, DJI se destaca como una marca líder en drones profesionales y accesorios de calidad. Con ventajas en estabilidad de vuelo, cámaras aéreas de alta resolución y una amplia gama de accesorios y tecnología de vuelo, DJI es la elección ideal tanto para principiantes como para profesionales en el mundo de los drones. Explora todo lo que DJI tiene para ofrecer y sumérgete en el emocionante mundo de la fotografía aérea, los vuelos recreativos y mucho más.',
+    p3: '',
+    linkWords: [ 'DJI', 'DJI Mavic 2 Pro', 'DJI Phantom 4 Pro' ]
+  },
+  section3: {
+    title: 'Reseñas de los Mejores Drones DJI',
+    subsection1: {
+      title: 'DJI Mavic 2 Pro',
+      content1: 'El DJI Mavic 2 Pro es uno de los drones más destacados de la marca DJI. Con su cámara Hasselblad de 20 megapíxeles y capacidad de grabación de video en 4K, este dron ofrece una calidad de imagen excepcional. La tecnología de vuelo avanzada, incluyendo el sistema de detección de obstáculos omnidireccional, garantiza un vuelo seguro y estable. Además, el Mavic 2 Pro cuenta con modos de vuelo inteligentes, como el seguimiento de objetos y el Hyperlapse, que permiten capturar tomas únicas y creativas. Con una duración de batería de hasta 31 minutos y un diseño plegable y portátil, el DJI Mavic 2 Pro es ideal tanto para profesionales de la fotografía aérea como para entusiastas que buscan una experiencia de vuelo excepcional.',
+      subcontent: {
+        content1: 'El DJI Mavic 2 Pro viene con una serie de accesorios que complementan su funcionalidad y mejoran la experiencia de vuelo. Aquí están los 8 accesorios más relevantes para este dron:',
+        content2: 'Baterías adicionales: Asegúrate de tener suficiente energía durante tus vuelos con baterías adicionales para el Mavic 2 Pro. Esto te permitirá extender tu tiempo de vuelo y capturar más imágenes impresionantes.',
+        content3: 'Filtros ND: Los filtros de densidad neutra (ND) te permiten controlar la cantidad que ingresa al sensor de la cámara. Esto es especialmente útil en condiciones de iluminación intensa, ya que te ayudará a obtener imágenes equilibradas y bien expuestas.',
+        content4: 'Estuche de transporte: Protege tu dron y accesorios mientras viajas con un estuche de transporte diseñado especificamente para el Mavic 2 Pro. Estos estuches suelen ser duraderos, resistentes al agua y cuentan con compartimientos organizados para un almacenamiento seguro.',
+        content5: 'Controlador adicional: Si deseas volar tu dron con un copiloto o compartir la experiencia de vuelo con alguien más, considera adquirir un comtrolador adicional. Esto te permitirá controlar el dron de manera simultánea y colaborativa.',
+      }
+    },
+    subsection2: {
+      title: 'DJI Phantom 4 Pro V2.0',
+      content1: 'El DJI Phantom 4 Pro V2.0 es otro dron de alta gama de DJI que ha impresionado a los usuarios en el campo de la fotografía aérea. Equipado con una cámara de 20 megapíxeles y grabación de video en 4K a 60 fps, este dron ofrece imágenes nítidas y videos fluidos. Su sistema de detección de obstáculos de cinco direcciones garantiza un vuelo seguro y evita colisiones. Además, el Phantom 4 Pro V2.0 cuenta con un control remoto con pantalla integrada, lo que facilita la visualización en tiempo real de las imágenes capturadas. Con una velocidad máxima de vuelo de 72 km/h y una duración de batería de hasta 30 minutos, este dron es una opción ideal para aquellos que buscan un rendimiento excepcional y una calidad de imagen impresionante.',
+      subcontent: {
+        content1: 'El DJI Phantom 4 Pro V2.0 también cuenta con una variedad de accesorios disponibles para mejorar su rendimiento y funcionalidad. Estos son los 8 accesorios más relevantes para este dron:',
+        content2: 'Baterías adicionales: Asegúrate de tener suficiente energía durante tus vuelos con baterías adicionales para el Phantom 4 Pro V2.0. Esto te permitirá prolongar tu tiempo de vuelo y capturar más imágenes impresionantes.',
+        content3: 'Maleta de transporte: Protege tu dron y accesorios durante el transporte con una maleta de transporte resistente y segura. Estas maletas suelen estar diseñadas para adaptarse perfectamente al Phantom 4 Pro V2.0 y ofrecen compartimentos acolchados para un almacenamiento seguro.',
+        content4: 'Filtos ND: Los filtros de densidad neutral (ND) te permiten controlar la cantidad de luz que ingresa al sensor de la cámara. Esto es especialmente útil en condiciones de iluminación intensa, ta que te ayudará a obtener imágenes equilibradas y expuestas.',
+        content5: 'Kit de hélices de repuesto: Si alguna de las hélices de tu Phantom 4 Pro V2.0 se daña, contar con un kit de hélices de repuesto te permitirá reemplazarlas rápidamente y volver a volar en poco tiempo.',
+      }
+    },
+    subsection2: {
+      title: 'DJI Mini 2',
+      content1: 'Si buscas un dron compacto pero potente, el DJI Mini 2 es la elección perfecta. Con un peso de menos de 250 gramos, este dron es liviano y portátil, lo que facilita su transporte. A pesar de su tamaño compacto, el Mini 2 ofrece una calidad de imagen sorprendente gracias a su cámara de 12 megapíxeles y capacidad de grabación de video en 4K. Con un tiempo máximo de vuelo de 31 minutos y una transmisión de video HD en vivo a una distancia de hasta 10 km, este dron ofrece una experiencia de vuelo emocionante y una amplia gama de posibilidades en la fotografía aérea. Además, el Mini 2 cuenta con modos de vuelo inteligentes y una aplicación intuitiva que permite capturar tomas impresionantes con facilidad.',
+      subcontent: {
+        content1: 'El DJI Mini 2 es un dron compacto y versátil que ofrece una gran experiencia de vuelo. Para aprovechar al máximo sus capacidades, te presentamos los 8 accesorios más relevantes para este dron:',
+        content2: 'Baterías adicionales: Asegúrate de tener suficiente energía durante tus vuelos con baterías adicionales para el DJI Mini 2. Esto te permitirá extender tu tiempo de vuelo y capturar más imágenes impresionantes.',
+        content3: 'Estuche de transporte: Protege tu DJI Mini 2 y accesorios mientras viajas con un estuche de transporte diseñado específicamente para este dron. Estos estuches suelen ser compactos, livianos y cuentan con compartimentos organizados para un almacenamiento seguro.',
+        content4: 'Hélices de repuesto: Si alguna de las hélices de tu DJI Mini 2 se daña, es importante contar con un juego de hélices de repuesto. Esto te permitirá reemplazarlas fácilmente y seguir volando sin interrupciones.',
+        content5: 'Kit de filtros ND: Los filtros de densidad neutra (ND) te permiten controlar la cantidad de luz que ingresa al sensor de la cámara. Un kit de filtros ND especialmente diseñado para el DJI Mini 2 te ayudará a obtener imágenes equilibradas y bien expuestas en diferentes condiciones de iluminación.',
+      }
+    },
+  }
+}
