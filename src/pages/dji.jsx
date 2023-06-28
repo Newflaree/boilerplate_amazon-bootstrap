@@ -6,6 +6,7 @@ import { dbContents, dbProducts } from '@/database';
 import { MainLayout } from '@/components/layouts';
 // Views
 import { PageSection } from '@/views';
+import {CardGrid2} from '@/components/ui';
 
 const DJIPage = ({ contentData }) => {
   const {
@@ -88,6 +89,7 @@ const DJIPage = ({ contentData }) => {
               <p>
                 Baterías adicionales: Asegúrate de tener suficiente energía durante tus vuelos con baterías adicionales para el Mavic 2 Pro. Esto te permitirá extender tu tiempo de vuelo y capturar más imágenes impresionantes.
               </p>
+              <CardGrid2 product={ dbProducts.amazonProducts[0] } />
             </li>
             <li>
               <p>

@@ -7,8 +7,6 @@ import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Components
 import { AmazonCard1 } from './';
-// Database
-import { dbProducts } from '@/database';
 // Styles
 import 'swiper/css';
 import 'swiper/css/pagination';

@@ -33,7 +33,7 @@ p {
 section {
   padding: 60px 0;
 }
- 
+
 .custom-primary {
   color: #333;
 }
@@ -59,6 +59,10 @@ section {
   margin-top: 30px;
 }
 
+.dropdown-item:active {
+  color: #333333;
+}
+ 
 h1, h2, h3 {
   color: #333;
 }

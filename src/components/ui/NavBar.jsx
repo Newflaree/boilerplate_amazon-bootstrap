@@ -50,6 +50,87 @@ export const NavBar = () => {
             { /* List Item */ }
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Marcas de drones
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <NextLink
+                    href="/dji"
+                    passHref
+                    legacyBehavior
+                  >
+                    <span className="dropdown-item pointer">
+                      DJI
+                    </span>
+                  </NextLink>
+                </li>
+                <li>
+                  <NextLink
+                    href="/parrot"
+                    passHref
+                    legacyBehavior
+                  >
+                    <span className="dropdown-item pointer">
+                      Parrot
+                    </span>
+                  </NextLink>
+                </li>
+              </ul>
+            </li>
+            { /* List Item */ }
+            { /* List Item */ }
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dones
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <NextLink
+                    href="/dji-mavic-2-pro"
+                    passHref
+                    legacyBehavior
+                  >
+                    <span className="dropdown-item pointer">
+                      DJI Mavic 2 Pro
+                    </span>
+                  </NextLink>
+                </li>
+                <li>
+                  <NextLink
+                    href="/marcas-destacadas"
+                    passHref
+                    legacyBehavior
+                  >
+                    <span className="dropdown-item pointer">
+                      DJI Mavic 2 Pro
+                    </span>
+                  </NextLink>
+                </li>
+              </ul>
+            </li>
+            { /* List Item */ }
+            { /* List Item */ }
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accesorios para drones
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Accesorios esenciales
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Accesorios especiales
+                  </a>
+                </li>
+              </ul>
+            </li>
+            { /* List Item */ }
+            { /* List Item */ }
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Reseñas de drones
               </a>
               <ul className="dropdown-menu">
@@ -85,6 +166,11 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
+                    Drones profesionales
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
                     Drones para fotografía aérea
                   </a>
                 </li>
@@ -99,17 +185,37 @@ export const NavBar = () => {
             { /* List Item */ }
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Comparativas de drones
+                Preguntas frecuentes
               </a>
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Drones por rango de precios
+                    ¿Qué dron es bueno para fotos?
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Drones por características
+                    ¿Qué quiere decir 4K en un dron?
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    ¿Cuánto alcance tiene un dron profesional?
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    ¿Qué tipos de drones profesionales existen?
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    ¿Qué facilidad puede tener el uso de un dron?
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    ¿Qué es un dron industrial?
                   </a>
                 </li>
               </ul>
@@ -118,26 +224,7 @@ export const NavBar = () => {
             { /* List Item */ }
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Accesorios para drones
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Accesorios esenciales
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Accesorios especiales
-                  </a>
-                </li>
-              </ul>
-            </li>
-            { /* List Item */ }
-            { /* List Item */ }
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Blog
+                Noticias relevantes
               </a>
               <ul className="dropdown-menu">
                 <li>

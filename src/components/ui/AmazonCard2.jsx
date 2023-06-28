@@ -10,14 +10,14 @@ export const AmazonCard2 = ({
   return (
     <div className="card m-auto shadow" style={{ maxWidth: '1000px' }}>
       <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2">
-        <div className="col">
+        <div className="col p-5">
           <a href={ cardDestination } target='_blank'>
             <Image
               src={ cardImage }
-              width={ 120 }
-              height={ 120 }
+              width={ 220 }
+              height={ 220 }
               alt={cardDesc}
-              className="card-img-top p-4"
+              className="card-img-top p-5 h-100"
             />
             </a>
           </div>

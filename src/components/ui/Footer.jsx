@@ -17,7 +17,7 @@ export const Footer = () => {
               &copy; { currentYear } DronExperts. Todos los derechos reservados.
             </p>
             <p className="text-center">
-              Create por NWFL Software Development
+              Creado por NWFL Software Development
             </p>
           </div>
         </div>
