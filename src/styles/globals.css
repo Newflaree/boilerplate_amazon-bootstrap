@@ -213,3 +213,10 @@ p {
   height: 100%;
   object-fit: cover;
 }
+
+.card-image-container {
+  height: 260px; /* Ajusta la altura deseada */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

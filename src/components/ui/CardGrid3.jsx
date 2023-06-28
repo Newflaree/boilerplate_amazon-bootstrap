@@ -23,7 +23,7 @@ export const CardGrid3 = ({ products = [] }) => {
   }, [ isDesktop ]);
 
   return (
-    <div className="row row-cols-1 row-cols-sm-1 row-cols-md-4 g-4">
+    <div >
       <Swiper
         slidesPerView={ slidesToShow }
         pagination={{
@@ -36,17 +36,14 @@ export const CardGrid3 = ({ products = [] }) => {
           products.map( product => (
             <SwiperSlide
               key={ product.id }
+              className="my-5"
             >
-              <div
-                className="col my-4"
-              >
-                <AmazonCard1
-                  cardTitle={ product.name }
-                  cardImage={ product.img }
-                  cardPrice={ product.price }
-                  cardDestination={ product.url }
-                />
-              </div>
+              <AmazonCard1
+                cardTitle={ product.name }
+                cardImage={ product.img }
+                cardPrice={ product.price }
+                cardDestination={ product.url }
+              />
             </SwiperSlide>
           ))
         }

@@ -12,8 +12,14 @@ export const AmazonCard2 = ({
       <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2">
         <div className="col">
           <a href={ cardDestination } target='_blank'>
-            <Image src={ cardImage } className="card-img-top p-5" alt={ cardDesc } />
-          </a>
+            <Image
+              src={ cardImage }
+              width={ 120 }
+              height={ 120 }
+              alt={cardDesc}
+              className="card-img-top p-4"
+            />
+            </a>
           </div>
         <div className="col">
 
