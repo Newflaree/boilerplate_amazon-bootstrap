@@ -21,9 +21,13 @@ export const PageSection = ({
         { children }
       </div>
 
-      <CardGrid3
-        products={ products }
-      />
+      {
+        products.length > 0 && (
+          <CardGrid3
+            products={ products }
+          />
+        )
+      }
     </section>
   );
 }

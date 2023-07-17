@@ -19,9 +19,9 @@ export const AmazonCard2 = ({
               alt={cardDesc}
               className="card-img-top p-5 h-100"
             />
-            </a>
-          </div>
-        <div className="col">
+          </a>
+        </div>
+      <div className="col">
 
       <div className="card-body">
         <a href={ cardDestination } className='text-amazon' target='_blank'>

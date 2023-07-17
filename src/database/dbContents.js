@@ -143,3 +143,75 @@ export const djiContent = {
     },
   }
 }
+
+export const djiMavic3ProContent = {
+  metaTitle: 'DronExperts | DJI Mavic 3 Pro - El dron profesional líder en vuelos y fotografía aérea',
+  metaDesc : 'DronExperts | Descubre el DJI Mavic 3 Pro, el dron profesional líder en tecnología de vuelo y captura de imágenes aéreas. Explora sus características avanzadas, accesorios de alta calidad y aplicaciones en la industria de drones. Vuela con elegancia y cautiva con imágenes superiores gracias a este excepcional UAV',
+  metaKeywords: 'DJI Mavic 3 Pro, vuelos con drones, fotografía aérea, tecnología de vuelo, UAV, drones profesionales, drones para principiantes, equipo de vuelo autónomo, control remoto de drones, cámaras aéreas, accesorios para drones, guías de vuelo, seguridad de drones, industria de drones, aplicaciones de drones, nuevas tendencias en vuelo, vuelos recreativos, carreras de drones, drones impermeables, drones plegables, drones con seguimiento de objetos',
+  pageTitle: 'DJI Mavic 3 Pro: El dron profesional líder en vuelos y fotografía aérea',
+  pageBanner: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2023/05/DJI-Mavic-3-Pro-Trusted-06-1300x731.jpg',
+
+  section1: {
+    title: 'Imágenes superiores con un sistema de triple cámara',
+    p1: 'Descubre el poder y la belleza del DJI Mavic 3 Pro, un dron profesional que redefine los límites de la fotografía aérea. Con su sistema de triple cámara, este dron te permite capturar imágenes superiores desde diferentes perspectivas. Desde fotografía artística hasta videografía cinematográfica, el Mavic 3 Pro te brinda la capacidad de crear obras maestras visuales con facilidad y elegancia.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section2: {
+    title: 'Hasselblad Camera, Inmenso Detalle: Colores precisos y detalles impresionantes',
+    p1: 'La cámara Hasselblad de 4/3 CMOS integrada en el Mavic 3 Pro eleva la calidad de imagen a niveles extraordinarios. Con su rango dinámico nativo de hasta 12.8 stops y la capacidad de capturar fotos en formato RAW de 12 bits, podrás obtener detalles impresionantes en cada toma. Además, la Solución de Color Natural de Hasselblad (HNCS) reproduce fielmente los colores tal como los percibe el ojo humano, ofreciendo imágenes de una belleza y realismo excepcionales sin necesidad de una edición post-producción compleja.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section3: {
+    title: 'Especificaciones Profesionales de Video: Imágenes en movimiento de calidad cinematográfica',
+    p1: 'El Mavic 3 Pro no solo ofrece imágenes fijas de alta calidad, sino que también te permite crear videos impactantes con especificaciones profesionales. Graba videos en resolución 5.1K a 50fps y 4K a 120fps para obtener una claridad asombrosa y una reproducción suave de movimientos. El modo D-Log de 10 bits y HLG te brindan una amplia gama dinámica para una gradación de color más precisa y opciones creativas ilimitadas en la post-producción. Con el Mavic 3 Pro, tus videos serán auténticas obras maestras cinematográficas.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section4: {
+    title: 'Cámara Media Tele de 70mm, Encuadre Dinámico: Perspectivas únicas y composiciones artísticas',
+    p1: 'El Mavic 3 Pro está equipado con una cámara media tele de 70mm que te permite explorar nuevas perspectivas y crear composiciones artísticas impactantes. Con su capacidad de zoom óptico de 3x y una apertura de f/2.8, podrás resaltar sujetos específicos y comprimir la profundidad de campo para lograr efectos visuales sorprendentes. Ya sea capturando retratos aéreos o enfocándote en detalles fascinantes, esta cámara te ofrece la versatilidad necesaria para expresar tu creatividad sin límites.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section5: {
+    title: 'Cámara Tele de 166mm, Explora con el Zoom: Acércate a la acción con claridad excepcional',
+    p1: 'Con la cámara tele de 166mm del Mavic 3 Pro, podrás explorar el mundo desde una perspectiva única. Gracias a su zoom óptico de 7x y zoom híbrido de hasta 28x, podrás capturar detalles impresionantes desde lejos sin comprometer la calidad de la imagen. Ya sea que estés filmando la vida silvestre, eventos deportivos o paisajes distantes, esta cámara te acerca a la acción y te permite capturar cada momento con una claridad excepcional.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section6: {
+    title: 'Vuela por más tiempo, Percibe más rendimiento líder en la industria: Confianza para vuelos prolongados',
+    p1: 'El Mavic 3 Pro ofrece una autonomía de vuelo impresionante, con hasta 43 minutos de tiempo de vuelo continuo. Ya no tendrás que preocuparte por la duración de la batería mientras exploras el mundo desde el cielo. Además, su sistema de detección de obstáculos omnidireccional y tecnología APAS 5.0 garantizan vuelos seguros y sin contratiempos. Con el Mavic 3 Pro, podrás volar con confianza y concentrarte en capturar las mejores imágenes sin interrupciones.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section7: {
+    title: 'Experiencia de vuelo inteligente, inspiración infinita: Crea con facilidad y precisión',
+    p1: 'El Mavic 3 Pro está equipado con funciones inteligentes que te permiten capturar imágenes sorprendentes de manera sencilla y precisa. Desde el seguimiento de sujetos con ActiveTrack 5.0 y Spotlight hasta la generación automática de videos cinematográficos con MasterShots, este dron te brinda infinitas posibilidades creativas. Además, la función QuickShots te permite realizar movimientos de cámara impresionantes con solo un toque. Con el Mavic 3 Pro, la inspiración nunca tendrá límites.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section8: {
+    title: 'Experimenta el vuelo FPV fácilmente: Sumérgete en la experiencia de vuelo',
+    p1: 'Con el DJI Mavic 3 Pro, puedes experimentar la emoción del vuelo en primera persona (FPV) de manera sencilla. Conecta tus gafas DJI Goggles Integra, DJI Goggles 2 o DJI RC Motion 2 y disfruta de una experiencia inmersiva mientras exploras el mundo desde una perspectiva única. Siente la libertad y la emoción de volar con el Mavic 3 Pro.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  },
+  section9: {
+    title: 'Accesorios diversos, vuelo impresionante: Potencia tu experiencia de vuelo',
+    p1: 'Amplía tus capacidades y mejora tu experiencia de vuelo con los accesorios de alta calidad diseñados para el Mavic 3 Pro. Desde el control remoto DJI RC Pro con una pantalla de 1000 nits hasta los lentes gran angular y los filtros ND para lograr efectos visuales impresionantes, estos accesorios te permitirán aprovechar al máximo tu dron. Además, la batería de vuelo inteligente de larga duración y el cargador de automóvil te brindarán la energía necesaria para vuelos prolongados en cualquier lugar.',
+    p2: '',
+    p3: '',
+    linkWords: []
+  }
+}

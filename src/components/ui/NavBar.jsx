@@ -13,7 +13,6 @@ export const NavBar = () => {
           href='/'
           passHref
           legacyBehavior
-          
         >
           <p className="navbar-brand pointer">
             DronExperts
@@ -86,12 +85,12 @@ export const NavBar = () => {
               <ul className="dropdown-menu">
                 <li>
                   <NextLink
-                    href="/dji-mavic-2-pro"
+                    href="/dji-mavic-3-pro"
                     passHref
                     legacyBehavior
                   >
                     <span className="dropdown-item pointer">
-                      DJI Mavic 2 Pro
+                      DJI Mavic 3 Pro
                     </span>
                   </NextLink>
                 </li>
