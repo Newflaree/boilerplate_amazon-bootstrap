@@ -3,14 +3,16 @@ import { useEffect, useState } from 'react';
 // Next.js
 import Head from 'next/head';
 // Components
-import { Footer, LoadingPage, NavBar } from '../ui';
+import { Footer, LoadingPage, NavBar, PageBanner } from '../ui';
 
 
 export const MainLayout = ({
   children,
   titlePage = '',
   descPage = '',
-  keywordsPage = ''
+  keywordsPage = '',
+  pageBanner = '',
+  pageTitle = ''
 }) => {
   const [ isLoading, setIsLoading ] = useState( true );
 
@@ -43,6 +45,13 @@ export const MainLayout = ({
       <NavBar />
       
       <main className='container mt-5'>
+        <PageBanner
+          pageTitle={ pageTitle }
+          pageBanner={ pageBanner }
+        />
+
+        <hr />
+
         {
           isLoading
             ? <LoadingPage />

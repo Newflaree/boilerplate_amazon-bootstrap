@@ -5,7 +5,7 @@ import { AmazonCard2 } from './';
 
 export const CardGrid2 = ({ product }) => {
   return (
-    <div className="row row-cols-1 row-cols-md-1 g-4 my-4">
+    <div className="row row-cols-1 row-cols-md-1 g-4 my-4 pb-4">
       <div
         className="col"
       >

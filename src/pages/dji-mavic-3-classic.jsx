@@ -4,7 +4,7 @@ import { dbContents, dbProducts } from '@/database';
 import { MainLayout } from '@/components/layouts';
 // Views
 import { PageSection } from '@/views';
-import {CardGrid2} from '@/components/ui';
+import { CardGrid2 } from '@/components/ui';
 
 
 const DjiMavic3ClassicPage = ({ contentData }) => {
@@ -31,30 +31,9 @@ const DjiMavic3ClassicPage = ({ contentData }) => {
       titlePage={ metaTitle }
       descPage={ metaDesc }
       keywordsPage={ metaKeywords }
+      pageBanner={ pageBanner }
+      pageTitle={ pageTitle }
     >
-      <section
-        className="banner"
-        style={{
-          backgroundImage: `url( ${ pageBanner } )`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="banner-content text-center">
-                <h1 className="text-white display-1">
-                  { pageTitle }
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr />
-
       <PageSection
         title={ section1.title }
         products={ dbProducts.amazonProducts }

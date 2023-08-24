@@ -30,30 +30,9 @@ const DjiMavic3ProPage = ({ contentData }) => {
       titlePage={ metaTitle }
       descPage={ metaDesc }
       keywordsPage={ metaKeywords }
+      pageBanner={ pageBanner }
+      pageTitle={ pageTitle }
     >
-      <section
-        className="banner"
-        style={{
-          backgroundImage: `url( ${ pageBanner } )`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="banner-content text-center">
-                <h1 className="text-white display-1">
-                  { pageTitle }
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr />
-
       <PageSection
         title={ section1.title }
         products={ dbProducts.amazonProducts }

@@ -27,11 +27,9 @@ export default function Home({ contentData, productsData }) {
       titlePage={ metaTitle }
       descPage={ metaDesc }
       keywordsPage={ metaKeywords }
+      pageBanner={ pageBanner }
+      pageTitle={ pageTitle }
     >
-      <PageBanner pageTitle={ pageTitle } pageBanner={ pageBanner } />
-
-      <hr />
-
       <PageSection
         title={ section1.title }
         products={ productsData }
