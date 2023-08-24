@@ -96,12 +96,12 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <NextLink
-                    href="/marcas-destacadas"
+                    href="/dji-mavic-3-classic"
                     passHref
                     legacyBehavior
                   >
                     <span className="dropdown-item pointer">
-                      DJI Mavic 2 Pro
+                      DJI Mavic 3 Classic
                     </span>
                   </NextLink>
                 </li>

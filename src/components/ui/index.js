@@ -6,3 +6,4 @@ export * from './CardGrid3';
 export * from './NavBar';
 export * from './Footer';
 export * from './LoadingPage';
+export * from './PageBanner';

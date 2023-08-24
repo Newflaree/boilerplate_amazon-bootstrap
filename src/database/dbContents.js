@@ -3,7 +3,7 @@ export const homeContent = {
   metaDesc : 'DronExperts | Descubre todo sobre drones: vuelos emocionantes, fotografía aérea impresionante y los mejores drones profesionales y para principiantes. Explora nuestra guía de vuelo, accesorios esenciales y las últimas tendencias en la industria de drones.',
   metaKeywords: 'Vuelos con drones, Fotografía aérea, Drones profesionales, Drones para principiantes, Guías de vuelo, Accesorios para drones, Industria de drones, Nuevas tendencias en vuelo',
   pageTitle: '¡Explora el emocionante mundo de los drones!',
-  pageBanner: 'https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/05/dji-mini-3-pro-flight-2-920x518.jpg',
+  pageBanner: 'https://res.cloudinary.com/newflare/image/upload/v1689909419/dronexperts/dji-mini-3-pro-flight-2-920x518_qn3wkv.webp',
 
   section1: {
     title: 'Vuelos con drones para todos',
@@ -214,4 +214,65 @@ export const djiMavic3ProContent = {
     p3: '',
     linkWords: []
   }
+}
+
+export const djiMavic3ClassicContent = {
+  metaTitle: 'DronExperts | DJI Mavic 3 Classic - El dron profesional para vuelos y fotografía aérea',
+  metaDesc : 'DronExperts | Descubre el DJI Mavic 3 Classic, un dron potente con una cámara Hasselblad que ofrece un rendimiento excepcional. Explora sus características, como la grabación en 5.1K, el tiempo de vuelo prolongado y la detección de obstáculos, y sumérgete en la experiencia de vuelo y fotografía aérea de alta calidad',
+  metaKeywords: 'DJI Mavic 3 Classic, vuelos con drones, fotografía aérea, tecnología de vuelo, drones profesionales, cámaras aéreas, accesorios para drones, seguridad de drones, vuelos recreativos, drones plegables, drones con seguimiento de objetos',
+  pageTitle: 'DJI Mavic 3 Classic: El dron profesional para vuelos y fotografía aérea',
+  pageBanner: '',
+
+  section1: {
+    title: 'Rendimiento de vuelo y calidad de imagen excepcionales',
+    p1: 'El DJI Mavic 3 Classic es un dron potente y versátil diseñado para brindarte una experiencia excepcional en vuelos y fotografía aérea. Equipado con una cámara Hasselblad de alta calidad y características avanzadas, este dron te permite capturar imágenes impresionantes y videos de alta resolución con facilidad y precisión.',
+    p2: 'La cámara Hasselblad de 4/3 CMOS, diseñada en colaboración con la reconocida marca sueca, ofrece una calidad de imagen excepcional con una resolución de 20 MP y un rango dinámico nativo de 12.8 stops. Con un enfoque automático basado en tecnología VDAF (Vision Detection Auto Focus), podrás obtener imágenes nítidas y enfocadas en todo momento.',
+    p3: 'Además, el DJI Mavic 3 Classic te permite grabar videos en resolución 5.1K, lo que significa que podrás capturar detalles más nítidos y una mayor claridad en tus videos aéreos. También podrás disfrutar de grabaciones en cámara lenta con una resolución de 4K a 120fps, lo que te permitirá crear efectos visuales impactantes.',
+    linkWords: []
+  },
+  section2: {
+    title: 'Vuelo inteligente y características avanzadas',
+    p1: 'El DJI Mavic 3 Classic está diseñado para ofrecerte un vuelo seguro y fluido en todo momento. Con su sistema de detección de obstáculos omnidireccional, podrás volar con confianza y evitar colisiones. La función de vuelta a casa avanzada te permite regresar al punto de despegue de manera segura y eficiente, incluso en entornos complejos.',
+    p2: 'Gracias a su tiempo de vuelo máximo de 46 minutos y a su batería de vuelo de alta capacidad, podrás disfrutar de vuelos más largos sin interrupciones. Ya sea que estés realizando vuelos recreativos o trabajando en proyectos profesionales, el Mavic 3 Classic te brindará el tiempo de vuelo necesario para capturar todas tus ideas creativas.',
+    p3: '',
+    linkWords: []
+  },
+  section3: {
+    title: 'Experiencia de vuelo y creación simplificadas',
+    p1: 'El DJI Mavic 3 Classic viene equipado con funciones inteligentes que facilitan la creación de contenido impresionante. Con ActiveTrack, podrás seguir sujetos en movimiento y capturar tomas dinámicas y emocionantes. MasterShots te permite crear automáticamente videos cinematográficos con solo tocar un botón, mientras que QuickShots te permite realizar movimientos de cámara profesionales de manera automática.',
+    p2: 'Además, podrás disfrutar de una transmisión de video HD de alta calidad a una distancia de hasta 15 km, lo que te brinda una conexión estable y confiable entre el dron y el control remoto. Esto te permitirá tener un control preciso sobre tus vuelos y obtener una vista en tiempo real de tus imágenes y videos.',
+    p3: '',
+    linkWords: []
+  },
+  section4: {
+    title: 'Accesorios recomendados',
+    subSection1: {
+      title: 'Set de Filtros ND DJI Mavic 3 Classic',
+      p: 'El set de filtros ND para el DJI Mavic 3 Classic es el complemento perfecto para mejorar tus tomas aéreas. Este set incluye filtros ND8, ND16, ND32 y ND64, que te permiten controlar la cantidad de luz que ingresa al sensor de la cámara. Con estos filtros, podrás capturar imágenes más equilibradas y suaves, reduciendo el efecto de desenfoque en condiciones de mucha luz. Explora nuevas posibilidades creativas y obtén resultados sorprendentes con el DJI Mavic 3 Classic ND Filters Set.'
+    },
+    subSection2: {
+      title: 'Lente Gran Angular DJI Mavic 3 Classic',
+      p: 'El objetivo gran angular compatible con el DJI Mavic 3 Classic te permite ampliar tu campo de visión y capturar más detalles en cada toma. Con un ángulo de visión ultra amplio de 108°, este objetivo te brinda una perspectiva única y expansiva. Ya sea que estés fotografiando paisajes impresionantes o realizando tomas cinematográficas, el objetivo gran angular te permite capturar más en cada fotograma y contar historias más envolventes.'
+    },
+    subSection3: {
+      title: 'Cargador Portátil DJI 65W',
+      p: 'El cargador portátil DJI de 65W es el compañero perfecto para tu DJI Mavic 3 Classic. Con un cable USB-C de 65W incluido, podrás cargar fácilmente la batería del Mavic 3 Classic. Además, este cargador cuenta con un puerto USB-A adicional y un cable de datos USB-C incluido en el paquete, lo que te permite cargar también el control remoto al mismo tiempo. Con el cargador portátil DJI de 65W, podrás mantener tus dispositivos cargados y listos para la acción en cualquier momento y lugar.'
+    },
+    subSection4: {
+      title: 'Hub de Carga de Batería DJI Mavic 3',
+      p: 'El hub de carga de batería DJI Mavic 3 es una solución conveniente para cargar múltiples baterías de manera eficiente. Cuando está conectado a un cargador portátil de 65W o un cargador para automóvil, el hub de carga de batería DJI Mavic 3 puede cargar hasta tres baterías en secuencia según su nivel de energía restante. Esto te permite optimizar el proceso de carga y asegurarte de tener baterías listas para tus vuelos sin interrupciones. Simplifica tu proceso de carga y maximiza el tiempo de vuelo con el hub de carga de batería DJI Mavic 3.'
+    },
+    subSection5: {
+      title: 'Control Remoto DJI RC Pro',
+      p: 'El control remoto DJI RC Pro es la opción ideal para aquellos que buscan una experiencia de creación profesional. Con una pantalla de 1000 nits, un procesador de alto rendimiento y el soporte de transmisión de video de hasta 15 km, el DJI RC Pro te brinda un control sin igual sobre tu DJI Mavic 3 Classic. La pantalla brillante te permite ver claramente tus imágenes y videos incluso en condiciones de luz intensa, mientras que el procesador potente garantiza un rendimiento fluido y una respuesta rápida. Experimenta el máximo control y comodidad con el DJI RC Pro.'
+    },
+    subSection6: {
+      title: 'Control Remoto DJI RC',
+      p: 'El control remoto DJI RC ofrece una experiencia excepcional de operación para tu DJI Mavic 3 Classic. Con un diseño ligero, una pantalla HD y una batería de larga duración, este control remoto te permite disfrutar de vuelos prolongados y cómodos. Además, es compatible con la tecnología de transmisión de video DJI O3+, que garantiza una conexión estable y confiable entre el dron y el control remoto. Experimenta un control suave y preciso con el control remoto DJI RC y lleva tus vuelos y fotografías aéreas al siguiente nivel'
+    },
+    p1: 'Con estos accesorios de alta calidad, podrás personalizar y mejorar aún más tu experiencia de vuelo y fotografía aérea con el DJI Mavic 3 Classic. Explora nuevas posibilidades creativas, optimiza tu tiempo de vuelo y disfruta de un control sin igual con estos accesorios recomendados. ¡Aprovecha al máximo tu DJI Mavic 3 Classic y eleva tu creatividad a nuevas alturas!',
+    p2: '',
+    p2: '',
+    linkWords: []
+  },
 }

@@ -1,15 +1,14 @@
+// Components
+import { PageBanner } from '@/components/ui';
 // Database
-import {
-  dbContents,
-  dbProducts
-} from '@/database';
+import { homeContent } from '@/database/pages-content';
 // Layouts
 import { MainLayout } from '@/components/layouts';
 // Views
 import { PageSection } from '@/views';
 
 
-export default function Home({ contentData }) {
+export default function Home({ contentData, productsData }) {
   const {
     metaTitle,
     metaDesc,
@@ -29,43 +28,25 @@ export default function Home({ contentData }) {
       descPage={ metaDesc }
       keywordsPage={ metaKeywords }
     >
-      <section
-        className="banner"
-        style={{
-          backgroundImage: `url( ${ pageBanner } )`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="banner-content text-center">
-                <h1 className="text-white display-1">
-                  { pageTitle }
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PageBanner pageTitle={ pageTitle } pageBanner={ pageBanner } />
 
       <hr />
 
       <PageSection
         title={ section1.title }
-        products={ dbProducts.amazonProducts }
+        products={ productsData }
       >
         <p>
           Bienvenido a nuestro sitio web dedicado al apasionante mundo de los drones. Si alguna vez has soñado con volar, los drones te brindan la oportunidad de experimentar la emoción y la libertad de surcar los cielos. Tanto si eres un principiante curioso como si eres un piloto experimentado, estás en el lugar correcto para descubrir todo lo que necesitas saber sobre vuelos con drones.
         </p>
-          En nuestro sitio, encontrarás recursos y guías completas que te ayudarán a dar tus primeros pasos en el mundo de los drones. Aprenderás los conceptos básicos del vuelo, las mejores prácticas de seguridad y las regulaciones necesarias para volar de forma responsable. Además, te proporcionaremos consejos prácticos y trucos de pilotos experimentados para que puedas perfeccionar tus habilidades y disfrutar de vuelos emocionantes.<p>
+        <p>
+          En nuestro sitio, encontrarás recursos y guías completas que te ayudarán a dar tus primeros pasos en el mundo de los drones. Aprenderás los conceptos básicos del vuelo, las mejores prácticas de seguridad y las regulaciones necesarias para volar de forma responsable. Además, te proporcionaremos consejos prácticos y trucos de pilotos experimentados para que puedas perfeccionar tus habilidades y disfrutar de vuelos emocionantes.
         </p>
       </PageSection>
 
       <PageSection
         title={ section2.title }
-        products={ dbProducts.amazonProducts }
+        products={ productsData }
       >
         <p>
           La fotografía aérea es una forma fascinante de capturar el mundo desde una perspectiva completamente nueva. Con nuestros drones y cámaras aéreas de última generación, podrás elevar tu creatividad y capturar imágenes y vídeos impresionantes que dejarán a todos sin aliento.
@@ -77,10 +58,7 @@ export default function Home({ contentData }) {
 
       <PageSection
         title={ section3.title }
-        p={ section3.p1 }
-        p2={ section3.p2 }
-        p3={ section3.p3 }
-        products={ dbProducts.amazonProducts }
+        products={ productsData }
       >
         <p>
           En nuestro sitio web, encontrarás una amplia selección de drones profesionales y para principiantes que se adaptan a tus necesidades y preferencias. Si eres un piloto experimentado que busca un dron de alto rendimiento con funciones avanzadas, tenemos los últimos modelos con tecnología de vuelo autónomo, seguimiento de objetos y estabilización de imagen para garantizar resultados excepcionales.
@@ -95,9 +73,7 @@ export default function Home({ contentData }) {
 
       <PageSection
         title={ section4.title }
-        p={ section4.p1 }
-        p2={ section4.p2 }
-        products={ dbProducts.amazonProducts }
+        products={ productsData }
       >
         <p>
           Además de los drones, también ofrecemos una amplia gama de accesorios esenciales que te ayudarán a mejorar tu experiencia de vuelo. Desde baterías adicionales y hélices de repuesto hasta estuches de transporte y filtros para la cámara, tenemos todo lo que necesitas para garantizar vuelos sin problemas y capturas increíbles.
@@ -109,10 +85,7 @@ export default function Home({ contentData }) {
 
       <PageSection
         title={ section5.title }
-        p={ section5.p1 }
-        p2={ section5.p2 }
-        p3={ section5.p3 }
-        products={ dbProducts.amazonProducts }
+        products={ productsData }
       >
         <p>
           Los drones están revolucionando múltiples industrias y abriendo nuevas posibilidades en el ámbito de la tecnología. Desde la agricultura y la inspección de infraestructuras hasta la cinematografía y la entrega de paquetes, los drones se están convirtiendo en herramientas indispensables en diversos sectores.
@@ -124,17 +97,18 @@ export default function Home({ contentData }) {
           Te invitamos a explorar nuestro sitio web, aprender, descubrir y disfrutar de todo lo que el mundo de los drones tiene para ofrecer. Únete a la emocionante comunidad de pilotos de drones y descubre cómo volar puede cambiar tu perspectiva del mundo.
         </p>
       </PageSection>
-
     </MainLayout>
   );
 }
 
 export const getServerSideProps = async ( ctx ) => {
-  const contentData = dbContents.homeContent;
+  const contentData = homeContent.textData;
+  const productsData = homeContent.productsData;
 
   return {
     props: {
-      contentData
+      contentData,
+      productsData
     },
   }
 }
